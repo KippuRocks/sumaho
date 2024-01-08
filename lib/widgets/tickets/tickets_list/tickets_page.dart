@@ -12,17 +12,27 @@ class TicketsPage extends StatefulWidget {
 class _TicketsPageState extends State<TicketsPage> {
   final List<Ticket> _tickets = [
     Ticket(
-        id: "9098a96f-d95c-410c-84df-4327822158d0",
-        eventId: "8ce3d616-6e22-4301-be0d-5b8364cdb923",
-        description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
-        imageUrl: "https://kodadot.xyz/cdn-cgi/imagedelivery/jk5b6spi_m_-9qC4VTnjpg/bafkreib3xw6s2c3kd4gttopij5c6cdgph2xytzigdupbifsgwcdiannewe/w=2000"),
+        name: "Kippu Music Festival #00000000",
+        description: "Ticket #00000000 for The Kippu Music Festival (Event #30225709 - Test).\n\nEvent created using [Kippu](https://kippu.rocks).",
+        imageUrl: "https://kodadot.xyz/cdn-cgi/imagedelivery/jk5b6spi_m_-9qC4VTnjpg/bafkreib3xw6s2c3kd4gttopij5c6cdgph2xytzigdupbifsgwcdiannewe/w=1000",
+        assistance: false,
+        id: "0",
+        eventId: "30225710",
+        eventDates: EventDates(startsAt: DateTime(1705269600000), endsAt: DateTime(1705287600000)),
+        price: Price(asset: Asset(id: 863012, code: "COP", decimals: 2), ammounts: Ammounts(ticket: 0)),
+        eventName: "Kippu Music Festival"
+    ),
     Ticket(
-        id: "9098a96f-d95c-410c-84df-4327822158d0",
-        eventId: "8ce3d616-6e22-4301-be0d-5b8364cdb923",
-        description: "Baum Festival 2",
-        imageUrl: "https://kodadot.xyz/cdn-cgi/imagedelivery/jk5b6spi_m_-9qC4VTnjpg/bafkreib3xw6s2c3kd4gttopij5c6cdgph2xytzigdupbifsgwcdiannewe/w=2000",
-        eventName: "Baum Festival",
-        eventDate: DateTime(2024, 5, 14))
+        name: "Kippu Music Festival #00000001",
+        description: "Ticket #00000000 for The Kippu Music Festival (Event #30225709 - Test).\n\nEvent created using [Kippu](https://kippu.rocks).",
+        imageUrl: "https://kodadot.xyz/cdn-cgi/imagedelivery/jk5b6spi_m_-9qC4VTnjpg/bafkreib3xw6s2c3kd4gttopij5c6cdgph2xytzigdupbifsgwcdiannewe/w=1000",
+        assistance: true,
+        id: "1",
+        eventId: "30225710",
+        eventDates: EventDates(startsAt: DateTime(1705269600000), endsAt: DateTime(1705287600000)),
+        price: Price(asset: Asset(id: 863012, code: "COP", decimals: 2), ammounts: Ammounts(ticket: 0)),
+        eventName: "Kippu Music Festival"
+    ),
   ];
 
   @override
